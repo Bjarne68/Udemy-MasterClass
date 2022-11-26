@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label x:Name="lblValue" Content="Enter a value" HorizontalAlignment="Left" Margin="53,69,0,0" VerticalAlignment="Top" Width="82"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Margin="53,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnValue" Content="Value" HorizontalAlignment="Left" Margin="53,123,0,0" VerticalAlignment="Top" Click="btnValue_Click"/>
+        <TextBox x:Name="txtChoice" HorizontalAlignment="Left" Margin="69,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnChoice" Content="välj" HorizontalAlignment="Left" Margin="86,197,0,0" VerticalAlignment="Top" Click="btnChoice_Click"/>
 
     </Grid>
 </Window>
