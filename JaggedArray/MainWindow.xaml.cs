@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _2DArray
+namespace JaggedArray
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,34 +23,17 @@ namespace _2DArray
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-            private void Button_Click(object sender, RoutedEventArgs e)
-        {
+            
 
-            //foreach (int item in matrix)
-            //{
-            //    MessageBox.Show($"{item}");
-            //}
-
-            for (int i = 0, j = 2; i < 3; i++, j--)
+            
+            string[][] jaggedArray2 = new string[][]
             {
-               
-                   
-                   MessageBox.Show($"{matrix[i, j]}");
-                  
-                    
-              
-            }
-
-        }
-        static int[,] matrix =
-        {
-            { 1, 2, 3},
-            { 4, 5, 6},
-            { 7, 8, 9},
+                new string[] {"Pelle", "Anna"},
+                new string[] { "Bosse", "Göran" },
+                new string[] { "Lars", "Sven"}
         };
-        
+           MessageBox.Show($"Hej {jaggedArray2[0][1]} jag heter {jaggedArray2[1][1]}");
         }
     }
-
+}
