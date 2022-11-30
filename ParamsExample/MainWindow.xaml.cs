@@ -25,32 +25,23 @@ namespace ParamsExample
         {
             InitializeComponent();
 
-            int price = 50;
-            float pi = 3.14f;
-            char at = '@';
-            string book = "The Hobbit";
-
-            ParamsMetod();
-            ParamsMethod2(price, pi, at, book);
-            ParamsMethod2("Hello", 5.3, '$');
-
+            int min = MinV2(40, -1337, 889, 84, 95);
+            MessageBox.Show($"Det minsta numret är {min}");
         }
 
-        private static void ParamsMetod(params string[] sentence)
+        public static int MinV2(params int[] numbers)
         {
-            for (int i = 0; i < sentence.Length; i++)
-            {
-                MessageBox.Show(sentence[i]);
-            }
-        }
+            int min = int.MaxValue;
 
-        private static void ParamsMethod2(params object[] stuff)
-        {
-            foreach (object obj in stuff)
+            foreach (int number in numbers)
             {
-                Console.WriteLine(obj);
-               
+                if(number < min)
+                {
+                    min = number;
+                }
             }
+            return min;
         }
+        
     }
 }
