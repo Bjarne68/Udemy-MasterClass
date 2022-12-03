@@ -41,6 +41,23 @@ namespace DictionariesDemo
                 employeesDictionary.Add(employee.Role, employee);
             }
 
+            string KeyToUpdate = "HR";
+            if (employeesDictionary.ContainsKey(KeyToUpdate))
+            {
+                employeesDictionary[KeyToUpdate] = new Employee("HR", "Erika", 26, 18);
+                MessageBox.Show($"Den anställde med Roll/key {KeyToUpdate} uppdaterades");
+            }
+            else
+            {
+                MessageBox.Show($"Det fanns ingen med Roll {KeyToUpdate}");
+            }
+
+            string KeyToRemove = "Intern";
+            if (employeesDictionary.Remove(KeyToRemove))
+            {
+                MessageBox.Show($"Den anställde med Roll/key {KeyToUpdate} togs bort");
+            }
+
             string key = "CEO";
             if(employeesDictionary.ContainsKey(key))
             {
@@ -51,6 +68,8 @@ namespace DictionariesDemo
             {
                 MessageBox.Show("Det fanns ingen anställd med det värdet");
             }
+
+            
 
             Employee result = null;
 
