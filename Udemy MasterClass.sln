@@ -35,13 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualOverrideDemo", "Virt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceC", "InheritanceC\InheritanceC.csproj", "{8A31B309-D9F1-45E9-9C68-8B830754D6EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceC2", "InheritanceC2\InheritanceC2.csproj", "{50F18703-CAA4-48B7-BFAB-3EC70510AB6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceC2", "InheritanceC2\InheritanceC2.csproj", "{50F18703-CAA4-48B7-BFAB-3EC70510AB6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{15B528F7-28D0-41D0-9153-8FAD412271F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{15B528F7-28D0-41D0-9153-8FAD412271F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo2", "InterfaceDemo2\InterfaceDemo2.csproj", "{C7CE3626-5B60-4D77-8243-E96165D5F70C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo2", "InterfaceDemo2\InterfaceDemo2.csproj", "{C7CE3626-5B60-4D77-8243-E96165D5F70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableAndIEnumatorDemo", "IEnumerableAndIEnumatorDemo\IEnumerableAndIEnumatorDemo.csproj", "{9CD0D739-74AB-45A1-BA3C-91609C6EF0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableAndIEnumatorDemo", "IEnumerableAndIEnumatorDemo\IEnumerableAndIEnumatorDemo.csproj", "{9CD0D739-74AB-45A1-BA3C-91609C6EF0EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IEnumerableDemo", "IEnumerableDemo\IEnumerableDemo.csproj", "{4ECCCA79-7003-4708-BF7B-D47601908005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InumerableDemo2", "InumerableDemo2\InumerableDemo2.csproj", "{A4F0800F-0FAA-46E4-99CD-7A591494EC6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{9CD0D739-74AB-45A1-BA3C-91609C6EF0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD0D739-74AB-45A1-BA3C-91609C6EF0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD0D739-74AB-45A1-BA3C-91609C6EF0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECCCA79-7003-4708-BF7B-D47601908005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECCCA79-7003-4708-BF7B-D47601908005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECCCA79-7003-4708-BF7B-D47601908005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECCCA79-7003-4708-BF7B-D47601908005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F0800F-0FAA-46E4-99CD-7A591494EC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F0800F-0FAA-46E4-99CD-7A591494EC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F0800F-0FAA-46E4-99CD-7A591494EC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F0800F-0FAA-46E4-99CD-7A591494EC6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
